@@ -1,0 +1,34 @@
+# Maven target folder
+target/
+
+# Compiled Java classes
+*.class
+
+# Log files
+*.log
+
+# IntelliJ / VS Code settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Eclipse / NetBeans
+*.classpath
+*.project
+*.settings/
+
+# TestNG / Surefire reports
+surefire-reports/
+
+# Node / NPM (if any)
+node_modules/
+
+# Environment / config
+.env
