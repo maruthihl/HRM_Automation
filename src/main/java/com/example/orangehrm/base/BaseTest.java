@@ -14,7 +14,7 @@ public class BaseTest {
     public static void setup() {
         // Request Specification
         reqSpec = new RequestSpecBuilder()
-                .setBaseUri("https://i2.dev84.gigin.ai/trpc")
+                .setBaseUri("https://sandbox.workos.gigin.ai/gateway/auth/signin")
                 .addHeader("Content-Type", "application/json")
                 .log(LogDetail.ALL)
                 .build();
